@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #1fd7e4;
+}
+
+.map {
+    height: 88%;
+}
+
+.popup {
+    width: 300px;
+}
+
+img {
+    width: 100%;
+}
+
+.sights {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+
+    &__item {
+        padding: 10px;
+        border: 1px dashed;
+        box-sizing: border-box;
+    }
+}

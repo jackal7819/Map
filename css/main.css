@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #1fd7e4;
+}
+
+.map {
+  height: 88%;
+}
+
+.popup {
+  width: 300px;
+}
+
+img {
+  width: 100%;
+}
+
+.sights {
+  margin: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1em;
+}
+.sights__item {
+  padding: 10px;
+  border: 1px dashed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
